@@ -1,0 +1,211 @@
+:root {
+    --mainColor: whitesmoke;
+    --secondColor: #326fa8;
+    --backgroundColor: #111;
+  }
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--backgroundColor);
+    
+}
+
+.contenitoreForm{
+    position: absolute;
+    width: 100%;
+    height:90%;
+    top:13%;
+    /*background-color: yellow;*/
+}
+/*header {
+    position: fixed;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    min-height: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #111;
+    
+}
+
+.logo {
+    font-size: 200%;
+    color: var(--mainColor);
+    margin-left: 50px;
+    
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+ul {
+    flex: 2;
+    text-align: right;
+    margin-right: 50px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}*/
+
+ul li a {
+    color: var(--mainColor);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 150%;
+}
+
+/*ul li a:hover {
+    color: var(--secondColor);
+}*/
+
+/*header {
+    width: 100%;
+    min-height: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #111;
+    position: relative;
+}*/
+
+/*h2 {
+    font-size: 2.5em;
+    color: var(--mainColor);
+    letter-spacing: 2px;
+}*/
+
+
+form label {
+    color: var(--mainColor);
+    letter-spacing: 2px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/*a, a:visited, a:link {
+    color: var(--secondColor);
+    text-decoration: underline;
+    display: inline-block;
+}
+
+a:hover {
+    color: white;
+}*/
+
+.rows {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.column {
+    border: 2px solid red;
+    width: 16%;
+    display: inline-block;
+    height: 574px;
+}
+
+.div_rating {
+    display: inline-block;
+    
+}
+
+#inputRating {
+    width: 50%;
+    min-width: 315px;
+    display: block;
+}
+
+.div_visto_nonvisto {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.btn-switch {
+    margin: 0px 5px;
+    color: black;
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+}
+
+.btn-switch:hover {
+    color: white;
+    background-color: var(--secondColor);
+    border-color: var(--secondColor);
+}
+
+.radio_visto_nonvisto {
+    display: none;
+}
+
+
+
+.coverImage {
+    height: 200px;
+    width: 133px;
+    border: 1px dashed white;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+.formButton {
+    color: black;
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+    margin: 5px;
+}
+
+.formButton:hover {
+    color: white;
+    background-color: var(--secondColor);
+    border-color: var(--secondColor);
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.small-btn {
+    color: honeydew;
+    background-color: var(--secondColor);
+}
+
+.small-btn:hover {
+    color: black;
+}
+
+#poster_img {
+    width: inherit;
+    height: inherit;
+    display: none;
+}
+
+.alert {
+    width: 20%;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+}
+
+.inputImages {
+    display: none;
+}

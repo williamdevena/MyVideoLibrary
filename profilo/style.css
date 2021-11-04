@@ -1,0 +1,200 @@
+.titolo {
+    top: 100px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.small-btn {
+    color: honeydew;
+    background-color: var(--secondColor);
+}
+
+.small-btn:hover {
+    color: black;
+}
+
+.divProfilo{
+	position: absolute;
+	top: 27%;
+    left: 27%;
+    width: 40%;
+    height: 50%;
+    /*background-color: yellow;*/
+
+}
+
+.divTitolo{
+	color:white;
+	font-size: 110%;
+	position: absolute;
+	top:5%;
+	left:30%;
+	width: 70%;
+	/*background-color: green;*/
+}
+
+.div_errore{
+	position: absolute;
+    margin-top: 7%;
+    margin-left: 10%;
+    top: 60%;
+    left: 22%;
+    width: 30%;
+    height: 5%;
+    background-color: #ff6666;
+    color: white;
+    border-width: 20%;
+    border-color: white;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 120%;
+    visibility: hidden;
+}
+
+.div_errore p{
+    padding-top: 2%;
+}
+
+
+
+
+/*INPUT*/
+
+.divInputProfilo1{
+	position: absolute;
+	top:23%;
+	width: 100%;
+	height: 12%;
+	/*background-color: red;*/
+}
+
+.divInputProfilo2{
+	position: absolute;
+	top:37%;
+	width: 100%;
+	height: 12%;
+	/*background-color: red;*/
+}
+.divInputProfilo3{
+	position: absolute;
+	top:51%;
+	width: 100%;
+	height: 12%;
+	/*background-color: red;*/
+}
+
+
+.inputProfilo{
+	position: absolute;
+	top:20%;
+	left: 30%;
+	width: 65%;
+	height: 60%;
+}
+
+.labelProfilo{
+	position: absolute;
+	top:25%;
+	left: 2%;
+	color: white;
+	font-size: 122%;
+}
+
+.divBottone2 {
+    right: 30%;
+    bottom: 20%;
+    position: absolute;
+}
+
+
+.divBottone{
+	position: absolute;
+	bottom: 15%;
+	left: 37%;
+	width: 30%;
+	height: 10%;
+	/*background-color: blue;*/
+}
+
+.divBottone button{
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top:5%;
+	left:5%;
+	/* color:black; */
+	/* font-size: 110%;
+	border:none;
+	border-color: whitesmoke;
+	border-radius: 5%; */
+}
+
+.divBottone button:hover{
+	background-color: #326fa8;
+	border-color: #326fa8;
+	color: black;
+}
+
+@media (max-width: 1100px) {
+	.divTitolo{
+		width: 100%;
+		/*background-color: green;*/
+	}
+}
+
+
+
+@media (max-width: 760px) {
+
+    /*.titolo{
+    	color: white;
+    	font-size:170%;
+    }
+*/
+    .labelProfilo{
+    	font-size: 120%;
+
+    }
+
+    .divTitolo{
+    	width: 80%;
+    	left: 10%;
+    	font-size: 90%;
+
+    }
+
+    .divTitolo h2{
+    	position: absolute;
+    	left:10%;
+    }
+
+    .divProfilo{
+    	width: 80%;
+    	height: 70%;
+    	left: 10%;
+    	top: 20%;
+    }
+
+    .divBottone{
+		left: 25%;
+		width: 50%;
+		height: 7%;
+		bottom: 20%;
+	}
+
+	.inputProfilo{
+		left: 30%;
+		width: 65%;
+	}
+
+    /*.bottoneProfilo{
+    	width: 35%;
+    	margin:auto;
+		padding-top: 15%;
+		padding-left: 25%;
+	}*/
+	
+
+
+}

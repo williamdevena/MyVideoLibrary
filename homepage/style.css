@@ -1,0 +1,214 @@
+:root {
+    --mainColor: whitesmoke;
+    --secondColor: #326fa8;
+    --backgroundColor: #111;
+  }
+
+.slides img {
+    filter: brightness(0.5);
+    display: inline;
+}
+
+.container {
+    /* border: 1px solid red; */
+    height: 40%;
+    /* overflow: auto; */
+    min-height: 540px;
+}
+
+.slides {
+    /* border: 1px solid green; */
+    height: 100%;
+}
+
+.content {
+    width: 80%;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 10px;
+}
+
+table {
+    font-size: 1.1em;
+    table-layout: fixed;
+    height: 80%;
+}
+
+.field  hr {
+    width: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fieldGenere hr, .fieldDurata hr{
+    width: 60px;
+}
+
+.fieldValutazione hr{
+    width: 180px;
+}
+
+
+
+.field {
+    color: white;
+    width: 100px;
+    padding: 10px 0 10px 100px;
+    max-height: 100px;
+}
+
+.title {
+    color: white;
+}
+
+.desField {
+    color: white;
+    width: 20%;
+    text-align: justify;
+
+}
+.desField div {
+    /* border: 1px solid white; */
+    height: 80%;
+    overflow: auto;
+    padding-top: 0;
+}
+
+.actorsField {
+    overflow: auto;
+}
+
+.desField div::-webkit-scrollbar {
+    display: none;
+}
+
+.noFilmDiv{
+    height: 100px;
+    font-size: 2em;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.noFilmDiv p {
+    /* border: 1px solid green; */
+    color: white;
+}
+
+.noFilmDiv p a{
+    color: var(--secondColor);
+}
+
+@media (max-height: 1090px)
+{
+    .rowContainer{
+        top: 545px;
+    }
+}
+
+@media (max-height: 820px)
+{
+    table {
+        font-size: 0.8em;
+    }
+
+    .rowContainer{
+        top: 50%;
+    }
+
+    .container {
+        height: 47%;
+        min-height: 380px;
+    }
+
+    .field hr {
+        width: 35px;
+    }
+
+    .fieldGenere hr, .fieldDurata hr{
+        width: 45px;
+    }
+
+    .fieldValutazione hr{
+        width: 130px;
+    }
+}
+
+@media (max-height: 700px)
+{
+
+    .rowContainer{
+        top: 350px;
+    }
+
+    .container {
+        height: 47%;
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 960px) and (min-height: 860px)
+{
+    table {
+        font-size: 0.8em;
+    }
+    .rowContainer{
+        top: 45%;
+    }
+
+    .container {
+        height: 47%;
+        min-height: 340px;
+    }
+
+    .field hr {
+        width: 35px;
+    }
+
+    .fieldGenere hr, .fieldDurata hr{
+        width: 45px;
+    }
+
+    .fieldValutazione hr{
+        width: 130px;
+    }
+}
+
+@media (max-width: 800px)
+{
+    table {
+        font-size: 0.7em;
+        position: absolute;
+    }
+
+    .field hr {
+        width: 30px;
+    }
+
+    .fieldGenere hr, .fieldDurata hr{
+        width: 40px;
+    }
+
+    .fieldValutazione hr{
+        width: 115px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    table {
+        font-size: 0.5em;
+        position: absolute;
+    }
+
+    .field hr {
+        width: 20px;
+    }
+
+    .fieldGenere hr, .fieldDurata hr{
+        width: 28px;
+    }
+
+    .fieldValutazione hr{
+        width: 80px;
+    }
+}

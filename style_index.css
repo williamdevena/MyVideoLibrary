@@ -1,0 +1,199 @@
+/*         INDEX         */
+
+
+.index_body{
+    /*background-color: #282727;*/
+    background-image: url("./images/sfondo_login.jpeg");
+    background-attachment: fixed;
+}
+
+.div_salva{
+    position: absolute;
+    width: 50%;
+    height: 72%;
+    left: 50%;
+    top: 8%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+    /*opacity: 90%;*/
+}
+
+.oppure {
+    font-size: 80%; 
+    position: absolute; 
+    top: 59%; 
+    left:41%;
+}
+
+.div_salva h2{
+    padding-top: 10%;
+    font-size: 270%;
+}
+
+.div_salva p{
+    font-size: 140%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bottone_login{
+    background: #326fa8;
+    color: white;
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 35%;
+    border: 1px solid;
+    border: 0;
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.bottone_login:hover{
+    color: black;
+}
+
+
+#bottone1{
+    top: 58%;
+    
+}
+
+#bottone2{
+    top: 71%;   
+}
+
+
+.contenitore{
+	margin-left: 2.5%;
+	/*top: 50px;
+	left: 50px;*/
+	height: 3000px;
+	width: 95%;
+	/*background-color: yellow;*/
+}
+
+.div_filtra{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0%;
+    top: 80%;
+    background-color: white;
+    color: black;
+    /*opacity: 90%;*/
+}
+
+.div_filtra h2{
+    padding-top: 8%;
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.div_filtra img{
+    position: absolute;
+    top:10%;
+    left: 70%;
+    width: 240px;
+    height: 360px;
+}
+
+.div_aggiungi{
+    position: absolute;
+    top: 130%;
+    height: 50%;
+    width: 50%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+}
+
+
+.div_aggiungi h2{
+    padding-top: 10%;
+    font-size: 270%;
+}
+
+.div_aggiungi p{
+    font-size: 140%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+@media (max-width: 1100px) {
+    .div_filtra img{
+        left: 70%;
+        width: 20%;
+        height: 60%;
+        top: 30%;
+    }
+
+    .oppure{
+        top: 62%;
+    }
+
+}
+
+
+
+
+@media (max-width: 760px) {
+    .div_salva{
+        width: 137%;
+        left: 0%;
+    }
+
+    .div_salva h2{
+        padding-top: 15%;
+        font-size: 180%;
+    }
+
+    .div_salva p{
+        font-size: 120%;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .oppure{
+        top: 60%;
+        left: 39%;
+    }
+
+    .div_filtra{
+        width: 137%;
+    }
+
+    .div_filtra h2{
+        font-size: 180%;
+    }
+
+    .div_filtra img{
+        position: absolute;
+        top:30%;
+        left: 50%;
+        width: 150px;
+        height: 255px;
+    }
+
+    .div_aggiungi{   
+        width: 137%;
+    }
+
+
+    .div_aggiungi h2{
+        padding-top: 10%;
+        font-size: 180%;
+    }
+
+    .div_aggiungi p{
+        font-size: 120%;
+    }
+
+}

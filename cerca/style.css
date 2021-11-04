@@ -1,0 +1,367 @@
+.divCerca{
+	/*background-color: yellow;*/
+	position: absolute;
+	top: 15%;
+    left: 9%;
+    width: 90%;
+    height: auto;
+    min-height: 80%;
+
+}
+
+.barraCerca{
+	position: absolute;
+	top:0%;
+	width: 100%;
+	height: 14%;
+	/*background-color: green;*/
+}
+
+
+
+
+.divFilm {
+	position: absolute;
+	width: 98%;
+	top:17%;
+	min-height: 40%;
+	height: auto;
+	/*background-color: blue;*/
+
+}
+
+.divFilm img{
+	margin-left: 2%;
+	margin-bottom: 2%;
+	width: 160px;
+	height: 250px;
+}
+
+.titolo{
+    color: white;
+    font-size:190%;
+    position: absolute;
+    top:10%;
+    left: 41%;
+}
+
+
+
+
+
+
+/*BARRA RICERCA*/
+
+.divInputCerca{
+	position: absolute;
+	left:10%;
+	top:47%;
+	width: 30%;
+	height: 40%;
+	/*background-color: blue;*/
+
+}
+
+.divInputCerca label{
+	position: absolute;
+	font-size: 120%;
+	top:20%;
+	left: 15%;
+	color: white;
+
+}
+
+.inputCerca {
+	position: absolute;
+	font-size: 100%;
+	right: 2%;
+	top:0%;
+	width: 65%;
+	height: 100%;
+}
+
+
+/*BOTTONI RADIO*/
+
+.divRadio1{
+	position: absolute;
+	height: 50%;
+	width: 7%;
+	bottom:5%;
+	left:45%;
+	/*background-color: red;*/
+}
+
+.divRadio1 label{
+	position: absolute;
+	left:30%;
+	color:white;
+}
+
+
+
+
+.divRadio2{
+	position: absolute;
+	height: 50%;
+	width: 7%;
+	bottom:5%;
+	left:55%;
+	/*background-color: red;*/
+}
+
+.divRadio2 label{
+	position: absolute;
+	left:20%;
+	color:white;
+}
+
+
+
+
+
+.divRadio3{
+	position: absolute;
+	height: 50%;
+	width: 7%;
+	bottom:5%;
+	left:65%;
+	/*background-color: red;*/
+}
+
+.divRadio3 label{
+	position: absolute;
+	left:25%;
+	color:white;
+}
+
+
+
+
+
+.bottoneRadio1{
+	position: absolute;
+	bottom: 25%;
+	left: 45%;
+}
+
+.bottoneRadio2{
+	position: absolute;
+	bottom: 25%;
+	left: 45%;
+}
+
+.bottoneRadio3{
+	position: absolute;
+	bottom: 25%;
+	left: 45%;
+}
+
+
+
+
+
+.divRicercaPer{
+	position: absolute;
+	top:5%;
+	left:52.5%;
+	width:20%;
+	height: 30%;
+	/*background-color: blue;*/
+}
+
+.divRicercaPer p{
+	color: white;
+	position: absolute;
+	font-size: 110%;
+	top:15%;
+	left:25%;
+}
+
+
+
+/*BOTTONE CERCA*/
+
+
+
+.divBottoneCerca{
+	position: absolute;
+	top:53%;
+	left: 77%;
+	height: 30%;
+	width: 10%;
+	/*background-color: red;*/
+}
+
+.bottoneCerca{
+	position: absolute;
+	top:20%;
+	left:30%;
+	width: 40%;
+	color:black;
+	font-size: 110%;
+	border:none;
+	border-color: whitesmoke;
+	border-radius: 10%;
+}
+
+.bottoneCerca:hover{
+	background-color: #326fa8;
+	border-color: #326fa8;
+	color: white;
+}
+
+
+
+
+
+@media (max-width: 1110px) {
+	.divInputCerca label{
+		left: 10%;
+
+	}
+	.modaleBox{
+		top:15%;
+		left: 5%;
+		height: 30%;
+		width: 90%;
+	}
+    
+}
+
+@media (max-width: 960px) {
+
+	.divInputCerca label{
+		left: 0%;
+
+	}
+
+
+    
+
+}
+
+
+@media (max-width: 760px) {
+
+	.divCerca{
+		top:18%;
+		/*background-color: yellow;*/
+	}
+
+	.barraCerca{
+		position: absolute;
+		top:0%;
+		width: 100%;
+		height: 25%;
+		/*background-color: green;*/
+	}
+
+
+	.titolo{
+		font-size: 120%;
+		left:30%;
+		top:14%;
+	}
+
+	.labelRicerca{
+		font-size: 100%;
+	}
+
+    .divInputCerca{
+    	top:5%;
+    	left:0%;
+    	width: 90%;
+    	height: 20%;
+    	/*background-color: blue;*/
+    }
+
+    .inputCerca {
+		position: absolute;
+		font-size: 100%;
+		right: 2%;
+		top:0%;
+		width: 60%;
+		height: 100%;
+	}
+
+    .divInputCerca label{
+    	font-size: 100%;
+    	left: 20%;
+    }
+
+
+    .divFilm {
+		position: absolute;
+		width: 98%;
+		top:25%;
+		height: 80%;
+		/*background-color: blue;*/
+
+	}
+
+
+    .divFilm img{
+		margin-left: 2%;
+		margin-bottom: 2%;
+		height:150px;
+		width:100px;
+	}
+
+	.divRadio1{
+		position: absolute;
+		height: 50%;
+		width: 7%;
+		bottom:0%;
+		left:10%;
+		/*background-color: red;*/
+	}
+
+	.divRadio2{
+		position: absolute;
+		height: 50%;
+		width: 7%;
+		bottom:0%;
+		left:30%;
+		/*background-color: red;*/
+	}
+
+	.divRadio3{
+		position: absolute;
+		height: 50%;
+		width: 7%;
+		bottom:0%;
+		left:50%;
+		/*background-color: red;*/
+	}
+
+	.divRicercaPer{
+		position: absolute;
+		top:27%;
+		left:15%;
+		width:60%;
+		height: 30%;
+		/*background-color: blue;*/
+	}
+
+	.divBottoneCerca{
+		width: 15%;
+		/*background-color: red;*/
+	}
+
+	.bottoneCerca{
+		width: 100%;	
+	}
+
+	
+
+
+}
+
+@media (max-width: 550px) {
+
+
+}
+
+
+

@@ -1,0 +1,145 @@
+.modale{
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    display: none;
+}
+
+.modaleBox{
+    background-color: white;
+    position: fixed;
+    top:15%;
+    left: 15%;
+    height: 65%;
+    width: 70%;
+}
+
+.modaleBox img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.8);
+}
+
+.close {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: white;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+
+table {
+    position: absolute;
+    left: 5%;
+    top:5%;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.field {
+    color: white;
+    width: 100px;
+    padding: 10px 0 10px 100px;
+    max-height: 100px;
+}
+
+.desField {
+    color: white;
+    width: 40%;
+    text-align: justify;
+    overflow: auto;
+    height: 400px;
+
+}
+.desField div {
+    /* border: 1px solid white; */
+    height: 70%;
+    overflow: auto;
+    padding-top: 0;
+}
+
+.field  hr {
+    width: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+hr {
+    color: white;
+}
+
+.fieldGenere hr, .fieldDurata hr{
+    width: 60px;
+}
+
+.fieldValutazione hr{
+    width: 180px;
+}
+
+.submit_button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    background: #326fa8;
+    border: 0;
+    border-radius: 10px;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+}
+
+.submit_button:hover{
+    color: black;
+    transition: .5s;
+}
+
+
+@media (max-height: 900px)
+{
+    table {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-height: 800px)
+{
+    table {
+        font-size: 0.5em;
+    }
+}
